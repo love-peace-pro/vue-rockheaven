@@ -5,6 +5,7 @@ import store from "./store";
 
 import "@/elements/elements.js";
 import '@/styles/element-variables.scss'
+import '@/styles/public.css'
 
 Vue.config.productionTip = false;
 

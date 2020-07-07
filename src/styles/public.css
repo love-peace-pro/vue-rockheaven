@@ -1,0 +1,71 @@
+/* flex布局样式 */
+.flex {
+  display: flex;
+}
+.align-center {
+  display: flex;
+  align-items: center;
+}
+.justify-spacebetween {
+  display: flex;
+  justify-content: space-between;
+}
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+.justify-flex-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column; 
+}
+/* 宽度 */
+.width_100 {
+  width: 100%;
+}
+.width_80 {
+  width: 80%;
+}
+.width_60 {
+  width: 60%;
+}
+.width_15 {
+  width: 15%;
+}
+/* 高度 */
+.height_100 {
+  height: 100%;
+}
+
+/* icon size */
+.i_3 {
+  font-size: 3rem;
+}
+.i_2 {
+  font-size: 2rem;
+}
+.i_1 {
+  font-size: 1rem;
+}
+
+/* 字体超出隐藏 */
+.overflow-text__2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.overflow-text__1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
