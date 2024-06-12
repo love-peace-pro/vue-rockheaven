@@ -1,9 +1,18 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: Zhenqing He
+ * @Date: 2024-06-12 09:04:54
+ * @LastEditors: Zhenqing He
+ * @LastEditTime: 2024-06-12 10:00:06
+-->
 <template>
   <div id="app">
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link ink to="/about">About</router-link>
     </div> -->
+  <div></div>
     <router-view />
   </div>
 </template>
